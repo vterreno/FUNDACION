@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5em;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.donacion {
+    cursor: pointer;
+    background: transparent;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navbar-nav a {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+@media (max-width:991px) {
+    .donacion {
+        display: none;
+    }
+
+}
