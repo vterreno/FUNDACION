@@ -29,8 +29,29 @@
     font-weight: 600;
 }
 
+.second-nav {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+.second-nav a {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+
 @media (max-width:991px) {
     .donacion {
+        display: none;
+    }
+
+    .second-nav {
         display: none;
     }
 
