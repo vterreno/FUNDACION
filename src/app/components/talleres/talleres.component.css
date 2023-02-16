@@ -1,0 +1,87 @@
+h4 {
+    margin: 1em 0em;
+    margin-left: 0.7em;
+}
+
+.r1 {
+    background-image: url(../../../assets/taller-interiorismo.png);
+    background-size: cover;
+}
+
+.r2 {
+    background-image: url(../../../assets//taller-tango.png);
+    background-size: cover;
+}
+
+.r3 {
+    background-image: url(../../../assets/taller-ingles.png);
+    background-size: cover;
+    
+}
+
+.r4 {
+    background-image: url(../../../assets/taller-yoga.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.rectangulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.rectangulo h6 {
+    color: white;
+    margin: 0;
+}
+
+.rectangulo button {
+    border: none;
+    border-radius: 1em;
+    background-color: white;
+    padding: 1em;
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangulo button a {
+    color: black;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin: 0em;
+    text-decoration: none;
+}
+
+.rectangulo button:hover {
+    background-color: rgb(160, 160, 160);
+}
+
+.rectangulo button a:hover {
+    color: white;
+}
+
+hr {
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+}
+@media (min-width:820px) {
+    h4 {
+        font-size: 2em;
+        margin-left: 8%;
+    }
+
+    .rectangulo {
+        margin: 1em 8%;
+        font-size: 1.2em;
+    }
+
+    .rectangulo h6 {
+        font-size: 1.2em;
+    }
+}

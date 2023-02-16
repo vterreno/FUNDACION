@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 1.5em;
+    padding: 1.5em 5em;
 }
 
 .navbar-toggler {
@@ -40,7 +40,7 @@
 }
 
 .second-nav {
-    border: 1px solid black;
+    border: 8px solid black;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -60,13 +60,40 @@
     color: #fcff3e;
 }
 
-@media (max-width:991px) {
+.logo-img {
+    width: 15em;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img img {
+    width: 10%;
+}
+
+.logo button a {
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+.logo button a:hover {
+    color: white
+}
+
+
+@media (max-width:992px) {
     .donacion {
         display: none;
     }
 
     .second-nav {
         display: none;
+    }
+
+    .logo {
+        padding: 1.5em 1.5em;
+    }
+    .logo img {
+        width: 10%;
     }
 
 }

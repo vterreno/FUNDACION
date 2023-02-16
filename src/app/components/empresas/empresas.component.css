@@ -1,0 +1,37 @@
+h4 {
+    margin-left: 1em;
+}
+
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cont2 {
+    width: 10em;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont2 img {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (min-width:820px) {
+    h4 {
+        margin-top: 1.5em;
+        font-size: 2em;
+        margin-left: 8%;
+    }
+
+    .contenedor-img {
+        flex-direction: row;
+        margin: 1em 3.5em;
+    }
+
+}
