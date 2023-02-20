@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./todas-noticias.component.css']
 })
 export class TodasNoticiasComponent {
-
+  
 }
