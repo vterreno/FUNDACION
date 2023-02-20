@@ -70,3 +70,62 @@ footer {
 .derechos-autor a:hover {
     color: #fcff3e;
 }
+
+.imagen-desktop {
+    display: none;
+}
+
+.desktop-version {
+    display: none;
+}
+
+
+@media (min-width:820px) {
+    .contenedor {
+        justify-content: flex-start;
+    }
+
+    .imagen {
+        width: 9em;
+    }
+
+    .imagen-desktop {
+        display: block;
+    }
+
+    .imagen img {
+        width: 100%;
+        margin-right: 1.5em;
+    }
+
+    .desktop-version {
+        display: block;
+    }
+
+    .desktop-version h6 {
+        margin-left: 0.5em
+    }
+
+    .desktop-version hr {
+        margin-top: 0;
+        margin-bottom: 0.6em;
+        margin-left: 0.5em
+    }
+
+    .redes-logo {
+        display: flex;
+    }
+
+    .redes {
+        flex-direction: column;
+    }
+
+    .contacto a {
+        margin-bottom: 1.5em;
+    }
+
+    .imagen-mobile {
+        display: none;
+    }
+
+}
