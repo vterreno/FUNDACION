@@ -1,0 +1,72 @@
+footer {
+    background-color: rgb(143, 143, 143);
+    padding-bottom: 2em;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 8em;
+    padding: 3em;
+    padding-bottom: 1em;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img{
+    width: 75%;
+}
+.contacto a {
+    margin-left: 0.5em;
+    margin-bottom: 0.1em;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.contacto a:hover {
+    color: #fcff3e;
+}
+
+.redes {
+    display: flex;
+    width: 10em;
+}
+
+.redes img {
+    width: fit-content;
+    height: 2em;
+    margin: 0.5em;
+}
+
+.derechos-autor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.derechos-autor p {
+    margin: 0;
+    color: black;
+}
+
+.derechos-autor a {
+    text-decoration: none;
+    color:black
+}
+
+.derechos-autor a:hover {
+    color: #fcff3e;
+}
