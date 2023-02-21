@@ -15,7 +15,7 @@
 
     <div class="second-nav">
         <a href="#">INICIO</a>
-        <a >¿QUIENES SOMOS?</a>
+        <a [routerLink]="'/quienes-somos'">¿QUIENES SOMOS?</a>
         <a href="#">EMPRESAS</a>
         <a [routerLink]="'/todasnoticias'">NOTICIAS</a>
         <a href="#">ENCONTRANOS</a>
@@ -26,7 +26,7 @@
     <div class="collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-item nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">¿QUIENES SOMOS?</a>
+            <a class="nav-item nav-link" [routerLink]="'/quienes-somos'">¿QUIENES SOMOS?</a>
             <a class="nav-item nav-link" href="#">EMPRESAS</a>
             <a class="nav-item nav-link" [routerLink]="'/todasnoticias'">NOTICIAS</a>
             <a class="nav-item nav-link" href="#">ENCONTRANOS</a>
