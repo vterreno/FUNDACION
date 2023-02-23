@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as AOS from 'aos'
 
 @Component({
   selector: 'app-quienes-somos',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./quienes-somos.component.css']
 })
 export class QuienesSomosComponent {
+  constructor() {}
 
+  ngOnInit() {
+    AOS.init()
+  }
 }
