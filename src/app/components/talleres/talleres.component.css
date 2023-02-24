@@ -58,6 +58,10 @@ h4 {
     text-decoration: none;
 }
 
+#titulo {
+    font-size: 1.7em;
+}
+
 .rectangulo button:hover {
     background-color: rgb(160, 160, 160);
 }
@@ -70,6 +74,34 @@ hr {
     margin-top: 3em;
     margin-bottom: 1.5em;
 }
+
+.socios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+
+.socios h4 {
+    font-size: 1em;
+    margin: 0em;
+}
+
+.socios a {
+    padding: 0.5em;
+    color: rgb(0 0 0);
+    background-color: rgb(246, 255, 0);
+    border: 1px solid #0000002b;
+    line-height: 3.5em;
+    border-radius: 1em;
+}
+
+.socios a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
 @media (min-width:820px) {
     h4 {
         font-size: 2em;
@@ -84,4 +116,13 @@ hr {
     .rectangulo h6 {
         font-size: 1.2em;
     }
+
+    #titulo {
+        font-size: 2.5em;
+    }
+
+    .socios h4 {
+        font-size: 1.2em;
+    }
+    
 }

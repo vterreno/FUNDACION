@@ -11,6 +11,7 @@ import { EmpresasComponent } from './components/empresas/empresas.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TodasNoticiasComponent } from './components/noticias/todas-noticias/todas-noticias.component';
 import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
+import { TodasEmpresasComponent } from './components/empresas/todas-empresas/todas-empresas.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.
     EmpresasComponent,
     FooterComponent,
     TodasNoticiasComponent,
-    QuienesSomosComponent
+    QuienesSomosComponent,
+    TodasEmpresasComponent
   ],
   imports: [
     BrowserModule,

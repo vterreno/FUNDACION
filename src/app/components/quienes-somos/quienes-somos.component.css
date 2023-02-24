@@ -3,7 +3,7 @@
 }
 
 .intro {
-    padding: 1.5em 2em;
+    padding: 1em;
 }
 .intro p {
     font-size: 1rem;
@@ -11,7 +11,7 @@
 }
 
 .objetivos {
-    padding: 0em 2em;
+    padding: 0em 1em;
 }
 
 .objetivos h4 {
@@ -26,6 +26,11 @@
 
 .historia {
     padding: 0em 2em;
+    margin-top: 2em;
+}
+
+hr {
+  margin-top: 4em;
 }
 
 .historia h4 {
@@ -37,11 +42,18 @@
   padding: 0em 2.8em;
   display: flex;
   justify-content: center;
+  margin-bottom: 4em;
 }
 
 .img-creciendo img {
   width: 100%;
 }
+
+#titulo {
+  padding: 0em 3em!important;
+  font-size: 1.7em;
+}
+
 /* The actual timeline (the vertical ruler) */
 .main-timeline {
     position: relative;

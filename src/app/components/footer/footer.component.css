@@ -79,14 +79,23 @@ footer {
     display: none;
 }
 
+.contacto-celular a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
 
 @media (min-width:820px) {
     .contenedor {
-        justify-content: flex-start;
+        justify-content: center;
+    }
+
+    .subcontenedor {
+        display: flex;
     }
 
     .imagen {
-        width: 9em;
+        width: 4em;
     }
 
     .imagen-desktop {
@@ -95,7 +104,6 @@ footer {
 
     .imagen img {
         width: 100%;
-        margin-right: 1.5em;
     }
 
     .desktop-version {
@@ -118,6 +126,15 @@ footer {
 
     .redes {
         flex-direction: column;
+        margin: 1em;
+    }
+
+    .contacto {
+        margin: 1em;
+    }
+
+    .contacto-celular {
+        margin: 1em;
     }
 
     .contacto a {
