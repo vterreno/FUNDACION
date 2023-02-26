@@ -1,3 +1,7 @@
+a:link, a:visited {
+    text-decoration: none;
+}
+
 .navbar {
     display: flex;
     flex-direction: column;
@@ -79,6 +83,44 @@
     color: white
 }
 
+.caja-desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5em;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.link a {
+    color: black;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.donar a {
+    border: 1px solid black;
+    padding: 0.2em 2.6em;
+}
+
+.socio a{
+    color: white;
+    background-color: black;
+    padding: 0.2em 1.8em;
+    border: 1px solid black;
+}
+
+.donar a:hover{
+    background-color: rgb(255, 255, 0);
+}
+
+.socio a:hover {
+    background-color: rgb(33, 33, 33);
+}
 
 @media (max-width:992px) {
     .donacion {
@@ -94,6 +136,10 @@
     }
     .logo img {
         width: 10%;
+    }
+
+    .caja-desk {
+        display: none;
     }
 
 }

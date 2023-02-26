@@ -3,13 +3,17 @@ footer {
     padding-bottom: 2em;
 }
 
+a:hover, a:link, a:visited {
+    text-decoration: none;
+}
+
 .contenedor {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    margin-top: 8em;
+    margin-top: 0em;
     padding: 3em;
     padding-bottom: 1em;
 }
@@ -85,9 +89,54 @@ footer {
     font-weight: 500;
 }
 
+.caja-mobile {
+    display: flex;
+    background-color: aqua;
+    position: sticky;
+    justify-content: center;
+    bottom: 0;
+    margin-top: 8em;
+    z-index: 10;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 3em;
+}
+
+.link a {
+    color: black;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.donar {
+    background-color: #fcff3e;
+}
+
+.socio {
+    background-color: black;
+}
+
+.socio a {
+    color: white;
+}
+
+.donar:hover{
+    background-color: rgb(255, 255, 0);
+}
+
+.socio:hover {
+    background-color: rgb(33, 33, 33);
+}
+
 @media (min-width:820px) {
     .contenedor {
         justify-content: center;
+        margin-top: 8em;
     }
 
     .subcontenedor {
@@ -144,5 +193,10 @@ footer {
     .imagen-mobile {
         display: none;
     }
+}
 
+@media (min-width:992px) {
+    .caja-mobile {
+        display: none;
+    }
 }
