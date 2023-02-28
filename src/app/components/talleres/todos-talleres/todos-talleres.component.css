@@ -1,0 +1,14 @@
+.banner img {
+    width: 100%;
+}
+
+@media (min-width:992px) {
+    .banner {
+        height: 15em;
+    }
+    
+    .banner img {
+        height: 100%;
+        object-fit: cover;
+    } 
+}
