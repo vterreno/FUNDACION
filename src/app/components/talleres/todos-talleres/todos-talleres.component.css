@@ -1,8 +1,127 @@
+a, a:visited {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
 .banner img {
     width: 100%;
 }
 
-@media (min-width:992px) {
+.titulo {
+    padding: 1.4em;
+    text-align: justify;
+    padding-bottom: 0.5em;
+}
+
+.titulo h4 {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+
+
+.accordion{
+    margin: 40px 0;
+    margin-top: 0.5em;
+}
+
+.accordion .item {
+      border: none;
+      margin-bottom: 1em;
+      background: none;
+}
+
+.t-p{
+    color: rgb(0 0 0);
+    padding: 10px 20px 30px 20px;
+    text-align: justify;
+}
+
+.accordion .item .item-header h2 button.btn.btn-link {
+    background: #fcff3e;
+    color: black;
+    border-radius: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+    line-height: 2.5;
+    text-decoration: none;
+    border-radius: 1em;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em;
+}
+
+.accordion .item .item-header {
+      border-bottom: none;
+      background: transparent;
+      padding: 0px;
+      margin: 2px;
+}
+  
+.accordion .item .item-header h2 button {
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      display: block;
+      width: 100%;
+      text-align: left;
+}
+  
+.accordion .item .item-header h2 i {
+      float: right;
+      font-size: 30px;
+      color: #eca300;
+      width: 60px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+}
+  
+button.btn.btn-link.collapsed i {
+      transform: rotate(0deg);
+}
+  
+button.btn.btn-link i {
+      transform: rotate(180deg);
+      transition: 0.5s;
+}
+
+i img {
+    width: 40%;
+}
+
+.btn-titule {
+    padding-left: 1em;
+}
+
+.t-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.7em;
+}
+
+.t-btn a {
+    border-radius: 1em;
+    border: none;
+    padding: 0.5em 1.5em;
+    background-color: #828282;
+    font-weight: 600;
+    color: white;
+}
+
+.t-btn a:hover {
+    background-color: #4a4a4a;
+}
+
+@media (min-width:820px) {
     .banner {
         height: 15em;
     }
@@ -11,4 +130,29 @@
         height: 100%;
         object-fit: cover;
     } 
+
+    .titulo h4 {
+        font-size: 2.5em;
+        margin-left: 6.5%;
+    }
+
+    .item {
+        width: 80%;
+    }
+
+    .btn-titule {
+        font-size: 1.2em;
+    }
+
+    .container {
+        margin-left: 6.5%;
+    }
+
+    .t-p {
+        font-size: 1.2em;
+    }
+
+    .t-btn a {
+        font-size: 1.1em;
+    }
 }
