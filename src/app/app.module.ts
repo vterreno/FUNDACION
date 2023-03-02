@@ -14,6 +14,7 @@ import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.
 import { TodasEmpresasComponent } from './components/empresas/todas-empresas/todas-empresas.component';
 import { EncontranosComponent } from './components/encontranos/encontranos.component';
 import { TodosTalleresComponent } from './components/talleres/todos-talleres/todos-talleres.component';
+import { SociosComponent } from './components/socios/socios.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { TodosTalleresComponent } from './components/talleres/todos-talleres/tod
     TodasEmpresasComponent,
     EncontranosComponent,
     TodosTalleresComponent,
+    SociosComponent,
   ],
   imports: [
     BrowserModule,

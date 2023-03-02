@@ -1,0 +1,86 @@
+.banner img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin: 1em;
+    width: 60%;
+    background-color: #fcff3e;
+    border-radius: 0.5em;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: 00;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-link {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    font-weight: 600;
+    font-size: 0.85em;
+    padding: 0.5em 0em;
+    margin-top: 1em;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.titulo {
+    padding: 1em;
+}
+
+.pasos {
+    padding: 1em;
+    margin: 1em;
+    margin-top: 0;
+    border: 1px solid #929292;
+    border-radius: 1em;
+}
+
+.pasos ol {
+    padding: 0em 1.1em;
+    font-size: 1em;
+}
+
+.pasos p {
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    border-radius: 1em;
+    padding: 0.5em 0em;
+}
+
+.creciendo-juntos img {
+    width: 100%;
+    padding: 2em 3em;
+}
+
+@media (min-width:992px) {
+    .banner {
+        height: 15em;
+    }
+    
+    .banner img {
+        height: 100%;
+        object-fit: cover;
+    } 
+}

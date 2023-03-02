@@ -5,6 +5,7 @@ import { EncontranosComponent } from './components/encontranos/encontranos.compo
 import { HomeComponent } from './components/home/home.component';
 import { TodasNoticiasComponent } from './components/noticias/todas-noticias/todas-noticias.component';
 import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
+import { SociosComponent } from './components/socios/socios.component';
 import { TodosTalleresComponent } from './components/talleres/todos-talleres/todos-talleres.component';
 
 
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path:'empresas', component:TodasEmpresasComponent},
   {path:'encontranos', component:EncontranosComponent},
   {path:'talleres', component:TodosTalleresComponent},
+  {path:'socios', component:SociosComponent},
 ];
 
 

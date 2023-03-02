@@ -15,7 +15,7 @@
                 <a href="#" id="donar">DONAR</a>
             </div>
             <div class="link socio">
-                <a href="#" id="socio">SER SOCIO</a>
+                <a [routerLink]="'/socios'" id="socio">SER SOCIO</a>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
         <a [routerLink]="'/todasnoticias'">NOTICIAS</a>
         <a [routerLink]="'/encontranos'">ENCONTRANOS</a>
         <a [routerLink]="'/talleres'">TALLERES</a>
-        <a href="#">SOCIOS</a>
+        <a [routerLink]="'/socios'">SOCIOS</a>
     </div>
 
     <!-- Mobile version -->
@@ -39,7 +39,7 @@
             <a class="nav-item nav-link" [routerLink]="'/todasnoticias'">NOTICIAS</a>
             <a class="nav-item nav-link" [routerLink]="'/encontranos'">ENCONTRANOS</a>
             <a class="nav-item nav-link" [routerLink]="'/talleres'">TALLERES</a>
-            <a class="nav-item nav-link" href="#">SOCIOS</a>
+            <a class="nav-item nav-link" [routerLink]="'/socios'">SOCIOS</a>
             <hr>
         </div>
     </div>
