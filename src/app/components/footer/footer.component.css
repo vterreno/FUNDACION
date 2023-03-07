@@ -45,6 +45,7 @@ a:hover, a:link, a:visited {
 
 .redes {
     display: flex;
+    flex-direction: row;
     width: 10em;
 }
 
@@ -90,13 +91,14 @@ a:hover, a:link, a:visited {
 }
 
 .caja-mobile {
+    background-color: transparent;
+    position: sticky !important;
+    bottom: 0 !important;
+}
+
+.link-btn {
     display: flex;
-    background-color: aqua;
-    position: sticky;
     justify-content: center;
-    bottom: 0;
-    margin-top: 8em;
-    z-index: 10;
 }
 
 .link {
@@ -131,6 +133,24 @@ a:hover, a:link, a:visited {
 
 .socio:hover {
     background-color: rgb(33, 33, 33);
+}
+
+.fondo {
+    background-color: rgb(143, 143, 143);
+}
+
+.fondo p {
+    margin: 0;
+}
+
+.wpp{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+
+.wpp img {
+    width: 3.5em;
 }
 
 @media (min-width:820px) {
@@ -190,6 +210,10 @@ a:hover, a:link, a:visited {
     }
 
     .imagen-mobile {
+        display: none;
+    }
+
+    .fondo {
         display: none;
     }
 }

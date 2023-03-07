@@ -71,7 +71,7 @@ a:link, a:visited {
 }
 
 .logo-img img {
-    width: 10%;
+    width: 30%;
 }
 
 .logo button a {
@@ -135,11 +135,12 @@ a:link, a:visited {
         padding: 1.5em 1.5em;
     }
     .logo img {
-        width: 10%;
+        width: 25%;
     }
 
     .caja-desk {
         display: none;
     }
+    
 
 }
