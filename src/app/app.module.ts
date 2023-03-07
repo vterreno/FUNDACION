@@ -15,6 +15,7 @@ import { TodasEmpresasComponent } from './components/empresas/todas-empresas/tod
 import { EncontranosComponent } from './components/encontranos/encontranos.component';
 import { TodosTalleresComponent } from './components/talleres/todos-talleres/todos-talleres.component';
 import { SociosComponent } from './components/socios/socios.component';
+import { LinksComponent } from './components/links/links.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { SociosComponent } from './components/socios/socios.component';
     EncontranosComponent,
     TodosTalleresComponent,
     SociosComponent,
+    LinksComponent,
   ],
   imports: [
     BrowserModule,

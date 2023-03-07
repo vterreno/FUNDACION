@@ -31,6 +31,7 @@ a:hover, a:link, a:visited {
 .imagen img{
     width: 75%;
 }
+
 .contacto a {
     margin-left: 0.5em;
     margin-bottom: 0.1em;
@@ -50,7 +51,6 @@ a:hover, a:link, a:visited {
 }
 
 .redes img {
-    width: fit-content;
     height: 2em;
     margin: 0.5em;
 }
@@ -88,69 +88,6 @@ a:hover, a:link, a:visited {
     text-decoration: none;
     color: black;
     font-weight: 500;
-}
-
-.caja-mobile {
-    background-color: transparent;
-    position: sticky !important;
-    bottom: 0 !important;
-}
-
-.link-btn {
-    display: flex;
-    justify-content: center;
-}
-
-.link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 3em;
-}
-
-.link a {
-    color: black;
-    font-weight: 700;
-    font-size: 1.1em;
-}
-
-.donar {
-    background-color: #fcff3e;
-}
-
-.socio {
-    background-color: black;
-}
-
-.socio a {
-    color: white;
-}
-
-.donar:hover{
-    background-color: rgb(255, 255, 0);
-}
-
-.socio:hover {
-    background-color: rgb(33, 33, 33);
-}
-
-.fondo {
-    background-color: rgb(143, 143, 143);
-}
-
-.fondo p {
-    margin: 0;
-}
-
-.wpp{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 2em;
-}
-
-.wpp img {
-    width: 3.5em;
 }
 
 @media (min-width:820px) {
@@ -219,7 +156,7 @@ a:hover, a:link, a:visited {
 }
 
 @media (min-width:992px) {
-    .caja-mobile {
-        display: none;
+    .contenedor {
+        margin-top: 6em;
     }
 }

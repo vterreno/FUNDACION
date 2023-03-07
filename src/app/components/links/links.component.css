@@ -1,0 +1,60 @@
+.caja-mobile {
+    background-color: transparent;
+    position: sticky;
+    bottom: 0;
+}
+
+.link-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 3em;
+}
+
+.link a {
+    color: black;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.donar {
+    background-color: #fcff3e;
+}
+
+.socio {
+    background-color: black;
+}
+
+.socio a {
+    color: white;
+}
+
+.donar:hover{
+    background-color: rgb(255, 255, 0);
+}
+
+.socio:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+.wpp{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+
+.wpp img {
+    width: 3.5em;
+}
+
+@media (min-width:992px) {
+    .caja-mobile {
+        display: none;
+    }
+}
