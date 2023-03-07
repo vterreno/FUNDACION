@@ -113,6 +113,51 @@ i img {
     background-color: #4a4a4a;
 }
 
+#inactivo-btn {
+    background-color: rgb(138, 138, 138);
+    color: white;
+}
+
+.inactivo {
+    padding: 10px 20px
+}
+
+.explicacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.explicacion h4 {
+    font-size: 1.1em;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 10em;
+    margin: 0em 0.5em;
+}
+
+.y {
+    background-color: yellow;
+}
+
+.g {
+    background-color: #828282;
+}
+
+.expl-content {
+    display: flex;
+    align-items: center;
+}
+
+.expl-content h4 {
+    margin: 0;
+}
+
 @media (min-width:820px) {
     .titulo h4 {
         font-size: 2.5em;
@@ -138,6 +183,20 @@ i img {
 
     .t-btn a {
         font-size: 1.1em;
+    }
+
+    .explicacion {
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .expl-content h4 {
+        font-size: 1.5em;
+    }
+
+    .circle {
+        height: 30px;
+        width: 30px;
     }
 }
 

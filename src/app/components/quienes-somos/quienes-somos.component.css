@@ -12,10 +12,13 @@ p {
 .intro {
     padding: 1em;
 }
+
 .intro p {
     font-size: 1rem;
     font-weight: 400;
 }
+
+
 
 .objetivos {
     padding: 0em 1em;

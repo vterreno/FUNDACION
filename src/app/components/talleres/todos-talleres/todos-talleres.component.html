@@ -4,6 +4,16 @@
 </div>
 
 <div class="container">
+  <div class="explicacion">
+    <div class="expl-content">
+      <h4>Talleres activos</h4>
+      <span class="circle y"></span>
+    </div>
+    <div class="expl-content">
+      <h4>Talleres inactivos</h4>
+      <span class="circle g"></span>
+    </div>
+  </div>
   <div class="accordion" id="accordionExample">
     <div class="item">
       <div class="item-header" id="headingOne">
@@ -106,15 +116,18 @@
     <div class="item">
       <div class="item-header" id="headingFive">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+          <button class="btn btn-link collapsed" id="inactivo-btn" type="button" data-toggle="collapse" data-target="#collapseFive"
             aria-expanded="false" aria-controls="collapseFive">
             <div class="btn-titule">Taller de señas</div>
 
-            <i class="fa fa-angle-down"><img src="../../../../assets/arrow-down-sign-to-navigate.png" alt=""></i>
+            <i class="fa fa-angle-down"><img src="../../../../assets/arrow-down-w.png" alt=""></i>
           </button>
         </h2>
       </div>
       <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+        <div class="inactivo">
+          <h4>Inscripciones cerradas</h4>
+        </div>
         <div class="t-p">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking
           at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
@@ -123,9 +136,9 @@
           will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
           accident, sometimes on purpose (injected humour and the like).
         </div>
-        <div class="t-btn">
+        <!--<div class="t-btn">
           <a href="https://forms.gle/wvhyWY3YfQQabQJ38" target="_blank">Inscribirse</a>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
