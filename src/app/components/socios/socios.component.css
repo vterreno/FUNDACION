@@ -10,8 +10,7 @@
 }
 
 .card {
-    margin: 1em;
-    width: 60%;
+    margin: 1.5em 1.7em;
     background-color: #fcff3e;
     border-radius: 0.5em;
 }
@@ -47,31 +46,16 @@ h2 {
 
 .titulo {
     padding: 1em;
+    padding-left: 1.5em;
 }
 
 .pasos {
-    padding: 1em;
-    margin: 1em;
-    border: 1px solid #929292;
-    border-radius: 1em;
-}
-
-.pasos ol {
-    padding: 0em 1.1em;
-    font-size: 1em;
+    margin: 0em 0.5em;
 }
 
 .pasos p {
-    text-align: center;
-    border: 1px solid #bbbbbb;
-    border-radius: 1em;
-    padding: 0.5em 0em;
-}
-
-.pasos p:hover {
-    background-color: #fcff3e;
-    font-weight: 600;
-    border: 1px solid black;
+    text-align: justify;
+    padding: 0.5em;
 }
 
 .creciendo-juntos img {
@@ -83,23 +67,34 @@ h2 {
     background-color: black;
 }
 
+
+@media (min-width:620px) {
+    .card {
+        margin: 1em 15%;
+    }
+
+    .pasos p {
+        font-size: 1.1em;
+    }
+
+    .creciendo-juntos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .creciendo-juntos img {
+        width: 80%;
+    }
+
+}
 @media (min-width:820px) {
     .titulo h2 {
         font-size: 2.5em;
         margin-left: 4.2%;
     }
-    
-    .pasos {
-        width: 40%;
-        padding: 1.5em;
-    }
 
     .pasos h4{
         font-size: 1.8em;
-    }
-
-    .pasos ol {
-        font-size: 1.2em;
     }
 
     .pasos p {
@@ -116,9 +111,23 @@ h2 {
         flex-direction: row;
     }
 
+    .card {
+        margin: 1em;
+        margin-left: 4em;
+    }
+
+    .card-body h5{
+        font-size: 2.5em;
+    }
+
+    .card-body h6 {
+        font-size: 1.2em;
+    }
+
     .card-link {
-        padding: 0.5em 1em;
-        font-size: 0.9em;
+        padding: 0.5em 4em;
+        font-size: 1.2em;
+        margin: 1em;
     }
 
     h5 {
@@ -126,12 +135,17 @@ h2 {
     }
 
     .creciendo-juntos {
-        display: flex;
-        justify-content: center;
+        width: 50%;
     }
 
     .creciendo-juntos img{
-        width: 50%;
+        width: 100%;
+    }
+
+    .socio-img {
+        display: flex;
+        justify-content: center;
+        padding: 1em;
     }
 }
 
@@ -144,6 +158,4 @@ h2 {
         height: 100%;
         object-fit: cover;
     } 
-
-
 }

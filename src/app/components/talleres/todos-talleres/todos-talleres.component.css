@@ -104,13 +104,13 @@ i img {
     border-radius: 1em;
     border: none;
     padding: 0.5em 1.5em;
-    background-color: #828282;
+    background-color: #fcff3e;
     font-weight: 600;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .t-btn a:hover {
-    background-color: #4a4a4a;
+    background-color: #e6e937;
 }
 
 #inactivo-btn {
